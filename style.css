@@ -1,0 +1,43 @@
+/* Overall body structure */
+* {
+  box-sizing: border-box;
+}
+
+/* Home Section */
+.home h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.home h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.home {
+  background-image: url('img/bg1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  height: 600px;
+}
+
+.home .overlay {
+  background-color: rgba(0,0,0,0.7);
+  height: 600px;
+  padding: 70px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home .typed {
+  color: #f33;
+}
