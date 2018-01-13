@@ -1,6 +1,35 @@
 /* Overall body structure */
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  height: 300px;
+}
+
+.heading h2 {
+  color: #fff;
+  height: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Home Section */
@@ -23,12 +52,12 @@
   background-size: cover;
   text-align: center;
   overflow: hidden;
-  height: 600px;
+  height: 100vh;
 }
 
 .home .overlay {
   background-color: rgba(0,0,0,0.7);
-  height: 600px;
+  height: 100vh;
   padding: 70px 0;
   font-family: 'Montserrat', sans-serif;
   color: #FFF;
@@ -40,4 +69,28 @@
 
 .home .typed {
   color: #f33;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.top-button {
+  border: #f33 solid 2px;
+  background-color: #f33;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.top-button:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+
+.intro {
+
 }
