@@ -50,13 +50,32 @@ p {
   background: #FFF;
   height: 200px;
   width: 200px;
+  margin: 30px auto;
   padding: 30px;
   overflow: hidden;
-  border: 4px solid #000;
+  border: 5px solid #6d6d6d;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+}
+
+.logo-circle:hover {
+  border: 5px solid #000;
 }
 
 .logo {
   height: 150px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  color: #807e7e;
 }
 
 /* Home Section */
@@ -128,5 +147,5 @@ p {
 }
 
 .heading-icon {
-  font-size: 50px;
+  font-size: 60px;
 }
