@@ -8,6 +8,27 @@ p {
   margin-top: 15px;
 }
 
+.intro {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.intro a {
+  color: #f33;
+}
+
+footer a {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  color: #3e3d3d;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #0a57a9;
+}
+
 .content {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -20,6 +41,11 @@ p {
   padding-bottom: 50px;
   text-align: center;
   color: #FFF;
+}
+
+.content-black a {
+  color: #FFF;
+  text-decoration: underline;
 }
 
 .heading {
@@ -141,15 +167,6 @@ h5 {
   background-color: transparent;
   text-decoration: none;
   color: #fff;
-}
-
-.intro {
-  text-align: center;
-  font-size: 20px;
-}
-
-.intro a {
-  color: #f33;
 }
 
 .heading-icon {
