@@ -143,6 +143,20 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+
+@keyframes godown {
+  from {bottom: 4rem;}
+  to {bottom: 2rem;}
+}
+
+.overlay i {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 3rem;
+  animation-name: godown;
+  animation-duration: 1s;
 }
 
 .home .typed {
