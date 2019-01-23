@@ -111,7 +111,7 @@ h5 {
 
 /* Home Section */
 .home h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   margin-top: 0;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
@@ -120,6 +120,11 @@ h5 {
 .home h2 {
   font-size: 40px;
   font-weight: 300;
+}
+
+.home h5 {
+  margin-top: 2rem;
+  color: #FFF;
 }
 
 .home {
@@ -147,13 +152,13 @@ h5 {
 }
 
 @keyframes godown {
-  from {bottom: 4rem;}
-  to {bottom: 2rem;}
+  from {bottom: 40px;}
+  to {bottom: 20px;}
 }
 
 .overlay i {
   position: absolute;
-  bottom: 2rem;
+  bottom: 20px;
   font-size: 3rem;
   animation-name: godown;
   animation-duration: 1s;
