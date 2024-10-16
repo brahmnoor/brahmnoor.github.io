@@ -1,112 +1,150 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Prata', serif;
-    font-weight: 400; /* Prata's regular weight is already bold */ 
-  }
-  .header-section {
-    padding: 80px 0 0; 
-  }
-  .header-section .container {
-    display: flex;
-    align-items: flex-start; 
-  }
-  .profile-info {
-    margin: auto 40px; 
-  }
-  .profile-image {
-    width: 200px; 
-    border-radius: 10px; 
-    object-fit: cover; 
-  }
-  .social-links {
-    margin-top: auto; 
-  }
-  .social-links a {
-    margin-right: 20px; 
-    font-size: 1.3rem;
-    padding: 5px 5px; /* Add some padding */
-    color: #555; 
-  }
-  .social-links a:hover {
-    color: #000; 
-    text-decoration: none; 
-    border-bottom: 2px solid #333; /* Add an underline */
-  }
-  .lead {
-    font-weight: 400;
-  }
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
 
-  .resume-link {
-    font-weight: 650; /* Make the text bolder */
-    padding: 5px 10px; /* Add some padding */ 
-    border-bottom: 2px solid #333; /* Add an underline */
-  }
-  
-  .resume-link:hover { /* Change styles on hover (optional) */
-    border-color: #181a1d; /* Change underline color */
-    text-decoration: none;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Prata', serif;
+  font-weight: 400;
+  /* Prata's regular weight is already bold */
+}
 
-  /* Make the name uppercase */
-  .profile-info h1 {
-    text-transform: uppercase;
-    letter-spacing: 1px; /* Add a bit of letter spacing */
-  }
+.header-section {
+  padding: 80px 0 0;
+}
 
-  .section-divider {
-    margin: 80px auto; /* Center the line horizontally */
-    border: 0;
-    border-top: 5px solid #6c757d; /* Darker grey color, 5px width */
-    width: 100%; /* Initial width - will be adjusted by the container */
-  }
-  .content .section-title {
-      margin-bottom: 0; /* Remove default bottom margin */
-  }
-  .content h2 {
-      display: inline;
-  }
+.header-section .container {
+  display: flex;
+  align-items: flex-start;
+}
 
-  .content p {
-      display: inline;
-      font-size: 1.25rem;
-      margin-top: 0;  /* Remove default top margin */ 
-  }
+.profile-info {
+  margin: auto 40px;
+}
 
-  .work-entry {
-      margin: 40px 0; 
-  }
-  .work-logo {
-      max-width: 180px; /* Adjust max width as needed */
-      max-height: 180px; /* Adjust max height as needed */
-  }
-  .media-coverage {
-      margin-bottom: 10px;
-  }
-  .media-coverage a {
-      color: #555; 
-      text-decoration: underline;
-  }
+.profile-image {
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-  .citation {
-      margin-bottom: 10px; 
-  }
+.social-links {
+  margin-top: auto;
+}
 
-  .citation a { /* Style the link icon */
-  color: #333; /* Match your default text color */
-  text-decoration: none; 
-  margin-right: 5px; /* Add spacing between icon and text */
+.social-links a {
+  margin-right: 20px;
+  font-size: 1.3rem;
+  padding: 5px 5px;
+  /* Add some padding */
+  color: #555;
+}
+
+.social-links a:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  /* Add an underline */
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.resume-link {
+  font-weight: 650;
+  /* Make the text bolder */
+  padding: 5px 10px;
+  /* Add some padding */
+  border-bottom: 2px solid #333;
+  /* Add an underline */
+}
+
+.resume-link:hover {
+  /* Change styles on hover (optional) */
+  border-color: #181a1d;
+  /* Change underline color */
+  text-decoration: none;
+}
+
+/* Make the name uppercase */
+.profile-info h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* Add a bit of letter spacing */
+}
+
+.section-divider {
+  margin: 80px auto;
+  /* Center the line horizontally */
+  border: 0;
+  border-top: 5px solid #6c757d;
+  /* Darker grey color, 5px width */
+  width: 100%;
+  /* Initial width - will be adjusted by the container */
+}
+
+.content .section-title {
+  margin-bottom: 0;
+  /* Remove default bottom margin */
+}
+
+.content h2 {
+  display: inline;
+}
+
+.content p {
+  display: inline;
+  font-size: 1.25rem;
+  margin-top: 0;
+  /* Remove default top margin */
+}
+
+.work-entry {
+  margin: 40px 0;
+}
+
+.work-logo {
+  max-width: 180px;
+  /* Adjust max width as needed */
+  max-height: 180px;
+  /* Adjust max height as needed */
+}
+
+.media-coverage {
+  margin-bottom: 10px;
+}
+
+.media-coverage a {
+  color: #555;
+  text-decoration: underline;
+}
+
+.citation {
+  margin-bottom: 10px;
+}
+
+.citation a {
+  /* Style the link icon */
+  color: #333;
+  /* Match your default text color */
+  text-decoration: none;
+  margin-right: 5px;
+  /* Add spacing between icon and text */
 }
 
 .row {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .engagement-logo {
-    max-width: 170px; /* Adjust logo size as needed */
-    margin-bottom: 20px;
-  }
-
+  max-width: 170px;
+  /* Adjust logo size as needed */
+  margin-bottom: 20px;
+}
